@@ -9,10 +9,10 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-public class TranslateGateway {
+public class OxfordDictionariesTranslateGateway {
     private static final String BASE_URL = "https://od-api-sandbox.oxforddictionaries.com/api/v2/{endpoint}/{source_lang_translate}/{target_lang_translate}/{word_id}";
-    private static final String APPLICATION_KEY = "784688ba1542f730e0585745cc762567"; //TODO generate and insert your Oxford API KEY here, https://developer.oxforddictionaries.com
-    private static final String APPLICATION_ID = "bb431b22"; //TODO generate and insert your Oxford API ID here, https://developer.oxforddictionaries.com
+    private static final String APPLICATION_KEY = ""; //TODO generate and insert your Oxford API KEY here, https://developer.oxforddictionaries.com
+    private static final String APPLICATION_ID = ""; //TODO generate and insert your Oxford API ID here, https://developer.oxforddictionaries.com
 
     public Response getTranslateText (String textToTranslate) {
         //String textToTranslate = "age";

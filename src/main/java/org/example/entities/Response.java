@@ -1,7 +1,5 @@
 package org.example.entities;
 
-import com.google.gson.annotations.SerializedName;
-
 import java.util.List;
 
 public record Response(
